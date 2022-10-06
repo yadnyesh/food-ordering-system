@@ -27,17 +27,15 @@
   <name>food-ordering-system</name>
   <url>http://maven.apache.org</url>
 
-  <dependencies></dependencies>
+<!--  <dependencies></dependencies>-->
 
   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>{maven-compiler-plugin.version}</version>
+        <version>${maven-compiler-plugin.version}</version>
         <configuration>
-          <source>19</source>
-          <target>19</target>
           <release>19</release>
         </configuration>
       </plugin>
